@@ -63,11 +63,6 @@
                 />
             @endif
 
-            @php
-                \Illuminate\Support\Facades\Log::info('actions', [
-                'actions' => $getActions(),
-            ]);
-            @endphp
             <x-tutorials::step.actions
                     :actions="$getActions()"
                     :color="$getColor()"
