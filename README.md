@@ -199,8 +199,8 @@ Use this selector to target Widgets.
 use Guava\Tutorials\Selectors\WidgetSelector;
 
 // Currently only the "index" of the widget is supported
-// So first widget = 1, second widget = 2, etc.
-Step::make(WidgetSelector::make(1));
+// So first widget = '1', second widget = '2', etc.
+Step::make(WidgetSelector::make('1'));
 ```
 
 #### (Generic) Selector
@@ -209,10 +209,10 @@ A generic selector can be used to target elements using a CSS selector, such as:
 ```php
 use \Guava\Tutorials\Selectors\Selector;
 
-Step::make('div');
-Step::make('#my-id');
-Step::make('.my-class');
-Step::make('[data-attribute]');
+Step::make(Selector::make('div'));
+Step::make(Selector::make('#my-id'));
+Step::make(Selector::make('.my-class'));
+Step::make(Selector::make('[data-attribute]'));
 ```
 
 ### Customizing label
@@ -235,7 +235,7 @@ By default the description is hidden. Here's how to set a description:
 
 ```php
 Step::make('username')
-    ->label('Pick an easy-to-remember, unique username');
+    ->description('Pick an easy-to-remember, unique username');
 ```
 
 You can also conditionally hide the description using:
