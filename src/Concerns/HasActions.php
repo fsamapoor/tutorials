@@ -116,9 +116,6 @@ trait HasActions
             $this->getNextStepAction(),
             $this->getCompleteTutorialAction(),
         ]);
-        Log::info('Default Actions for step '.$this->getName().' : ', [
-            'actions' => $actions,
-        ]);
 
         return $actions;
     }
