@@ -209,10 +209,10 @@ A generic selector can be used to target elements using a CSS selector, such as:
 ```php
 use \Guava\Tutorials\Selectors\Selector;
 
-Step::make('div');
-Step::make('#my-id');
-Step::make('.my-class');
-Step::make('[data-attribute]');
+Step::make(Selector::make('div'));
+Step::make(Selector::make('#my-id'));
+Step::make(Selector::make('.my-class'));
+Step::make(Selector::make('[data-attribute]'));
 ```
 
 ### Customizing label
