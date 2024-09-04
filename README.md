@@ -235,7 +235,7 @@ By default the description is hidden. Here's how to set a description:
 
 ```php
 Step::make('username')
-    ->label('Pick an easy-to-remember, unique username');
+    ->description('Pick an easy-to-remember, unique username');
 ```
 
 You can also conditionally hide the description using:
