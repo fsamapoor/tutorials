@@ -199,8 +199,8 @@ Use this selector to target Widgets.
 use Guava\Tutorials\Selectors\WidgetSelector;
 
 // Currently only the "index" of the widget is supported
-// So first widget = 1, second widget = 2, etc.
-Step::make(WidgetSelector::make(1));
+// So first widget = '1', second widget = '2', etc.
+Step::make(WidgetSelector::make('1'));
 ```
 
 #### (Generic) Selector
