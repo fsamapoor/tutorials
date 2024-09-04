@@ -9,7 +9,6 @@ use Guava\Tutorials\Filament\Actions\PreviousStepAction;
 use Guava\Tutorials\Filament\Actions\SkipTutorialAction;
 use Guava\Tutorials\Filament\TutorialAction;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Log;
 
 trait HasActions
 {

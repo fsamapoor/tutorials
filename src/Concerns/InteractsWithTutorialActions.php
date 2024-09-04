@@ -229,7 +229,5 @@ trait InteractsWithTutorialActions
         return $result;
     }
 
-    protected function afterActionCalled(): void
-    {
-    }
+    protected function afterActionCalled(): void {}
 }

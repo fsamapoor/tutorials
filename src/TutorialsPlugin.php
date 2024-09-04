@@ -42,9 +42,7 @@ class TutorialsPlugin implements Plugin
         }
     }
 
-    public function boot(Filament\Panel $panel): void
-    {
-    }
+    public function boot(Filament\Panel $panel): void {}
 
     public static function make(): static
     {

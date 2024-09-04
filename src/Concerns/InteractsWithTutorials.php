@@ -137,7 +137,7 @@ trait InteractsWithTutorials
 
     public function getView(): string
     {
-        $page = new static();
+        $page = new static;
 
         return match (true) {
             $page instanceof ListRecords => 'tutorials::filament.pages.list-records',

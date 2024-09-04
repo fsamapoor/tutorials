@@ -2,6 +2,4 @@
 
 namespace Guava\Tutorials\Selectors;
 
-class FormSelector extends FieldSelector
-{
-}
+class FormSelector extends FieldSelector {}

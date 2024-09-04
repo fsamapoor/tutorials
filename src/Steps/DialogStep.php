@@ -2,6 +2,4 @@
 
 namespace Guava\Tutorials\Steps;
 
-class DialogStep
-{
-}
+class DialogStep {}

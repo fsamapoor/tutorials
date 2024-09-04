@@ -25,7 +25,7 @@ trait CanHaveFormCallbacks
 
     public function getGetCallback(): ?callable
     {
-        $component = new Component();
+        $component = new Component;
         $livewire = $this->getLivewire();
 
         if (! ($livewire instanceof HasForms)) {

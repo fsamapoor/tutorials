@@ -2,6 +2,4 @@
 
 namespace Guava\Tutorials\Steps;
 
-class TargetStep extends Step
-{
-}
+class TargetStep extends Step {}
