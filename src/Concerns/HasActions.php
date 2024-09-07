@@ -17,13 +17,13 @@ trait HasActions
      */
     protected null | array | Closure $actions = null;
 
-    protected ?TutorialAction $previousStepAction = null;
+    protected null | Closure | TutorialAction $previousStepAction = null;
 
-    protected ?TutorialAction $nextStepAction = null;
+    protected null | Closure | TutorialAction $nextStepAction = null;
 
-    protected ?TutorialAction $skipTutorialAction = null;
+    protected null | Closure | TutorialAction $skipTutorialAction = null;
 
-    protected ?TutorialAction $completeTutorialAction = null;
+    protected null | Closure | TutorialAction $completeTutorialAction = null;
 
     /**
      * @var array<TutorialAction>|Closure
