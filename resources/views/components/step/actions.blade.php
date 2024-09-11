@@ -3,7 +3,7 @@
     'color' => null,
 ])
 @if(!empty($actions))
-    <div class="ml-auto flex flex-row flex-wrap gap-2">
+    <div class="ms-auto flex flex-row flex-wrap gap-2">
         @foreach($actions as $action)
             <div @class([
                     '[&_button]:!bg-custom-400',
