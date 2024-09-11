@@ -3,5 +3,5 @@
 ])
 
 @if($hint)
-    <span class="ml-auto">{{ $hint }}</span>
+    <span class="ms-auto">{{ $hint }}</span>
 @endif
